@@ -1,0 +1,61 @@
+{
+  "name": "react-router-boilerplate",
+  "version": "1.0.0",
+  "description": "Example of an react application with server-side rendering.",
+  "main": "server.js",
+  "scripts": {
+    "webpack": "webpack --watch --progress --colors",
+    "server": "babel-node app/server.js",
+    "build": "webpack",
+    "start": "run-p webpack server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimmyVV/react-router-boilerplate.git"
+  },
+  "author": "jimmyVV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JimmyVV/react-router-boilerplate/issues"
+  },
+  "homepage": "https://github.com/JimmyVV/react-router-boilerplate#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-latest": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-watch": "^2.0.2",
+    "clean-webpack-plugin": "^0.1.10",
+    "css-loader": "^0.24.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "isomorphic-fetch": "^2.2.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.8.0",
+    "npm-run-all": "^3.0.0",
+    "react-lite": "^0.15.17",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-merge": "^0.14.1",
+    "webpack-validator": "^2.2.7"
+  },
+  "dependencies": {
+    "koa": "^1.2.2",
+    "koa-ejs": "^3.0.0",
+    "koa-router": "^5.4.0",
+    "koa-static-cache": "^3.1.7",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^4.0.0-beta.8",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0",
+    "thunkify": "^2.1.2"
+  }
+}
